@@ -1,0 +1,38 @@
+{
+  "name": "mripta-mqtt-broker",
+  "version": "1.0.0",
+  "description": "MRIPTA Broker. Guarda e trata os dados dos sensores em mongodb e efetua autenticação em MySQL.",
+  "keywords": [
+    "mosca",
+    "mqtt",
+    "mysql",
+    "bcrypt",
+    "mongodb"
+  ],
+  "homepage": "https://github.com/mripta/broker",
+  "bugs": "https://github.com/mripta/broker/issues",
+  "repository": "github:mripta/broker",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mongodb": "^3.2.6",
+    "mosca": "^2.8.3",
+    "mysql": "^2.17.1",
+    "promise": "^8.0.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "contributors": [{
+    "name": "Henrique Bernardo",
+    "email": "aluno@ipt.pt"
+  },{
+    "name": "João Canoso",
+    "email": "joao@canoso.pt",
+    "url": "https://canoso.pt"
+  }],
+  "license": "MIT"
+}
